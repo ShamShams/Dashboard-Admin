@@ -1,0 +1,131 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*BOOTSTRAP*/
+.container {
+  width: 75%;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/*NAVBAR & TITRE PAGE*/
+.navbar {
+  padding: 0;
+  height: 45px;
+}
+
+.navbar li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.dropdown-item.active {
+  background-color: #343A40;
+}
+
+.page-title {
+  padding: 8px 0 4px 0;
+}
+
+/*HEADER*/
+header {
+  padding: 30px 0;
+}
+
+header .btn {
+  font-weight: 500;
+}
+
+.btn-orange {
+  background-color: #f9a54d;
+  color: #fff;
+}
+
+.btn-orange:hover {
+  background-color: #dd8b39;
+}
+
+/*CONTENT*/
+.content {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+  /*TABLEAU*/
+.table {
+  font-size: 17px;
+}
+
+.table-container {
+  padding: 0;
+}
+
+.btn-table {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.btn-table:hover {
+  border: 1px solid #aaa;
+}
+
+.table-title {
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.content nav {
+  padding-left: 25px;
+}
+
+  /*CARD*/
+.card {
+  font-weight: 500;
+  font-size: 60px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.card p {
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+.card .btn {
+  font-weight: 500;
+  margin: auto;
+}
+
+.bg-orange {
+  background-color: #f9a54d;
+}
+
+  /*LOGIN*/
+.form-container {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+form h4 {
+  font-weight: normal;
+}
+
+  /*PROFILE*/
+.avatar {
+  width: 222px;
+  margin-bottom: 20px;
+}
+
+/*FOOTER*/
+footer {
+  padding: 60px 0;
+  font-size: 20px;
+}
