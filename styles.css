@@ -87,19 +87,20 @@ header .btn {
 }
 
   /*CARD*/
-.card {
+.dashCard {
   font-weight: 500;
   font-size: 60px;
   padding: 20px;
   margin-bottom: 25px;
+  border-radius: 5px;
 }
 
-.card p {
+.dashCard p {
   font-family: sans-serif;
   margin-bottom: 0;
 }
 
-.card .btn {
+.dashCard .btn {
   font-weight: 500;
   margin: auto;
 }

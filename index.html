@@ -176,81 +176,81 @@
     <div class="container">
       <div class="row">
         <div class="col-9">
-          <div class="bg-light border rounded">
-            <h4 class="table-title">Latest Posts</h4>
+          <div class="card">
+            <h4 class="card-header">Latest Posts</h4>
+            <!-- TABLEAU -->
+            <table class="table table-striped border rounded">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Title</th>
+                  <th scope="col">Category</th>
+                  <th scope="col">Date Posted</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Post One</td>
+                  <td>Web Development</td>
+                  <td>July 11, 2017</td>
+                  <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Post Two</td>
+                  <td>Web Development</td>
+                  <td>July 12, 2017</td>
+                  <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Post Three</td>
+                  <td>Tech Gadgets</td>
+                  <td>July 12, 2017</td>
+                  <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Post Four</td>
+                  <td>Health & Wellness</td>
+                  <td>July 13, 2017</td>
+                  <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Post Five</td>
+                  <td>Web Development</td>
+                  <td>July 14, 2017</td>
+                  <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Post Six</td>
+                  <td>Business</td>
+                  <td>July 14, 2017</td>
+                  <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <!-- TABLEAU -->
-          <table class="table table-striped border rounded">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Title</th>
-                <th scope="col">Category</th>
-                <th scope="col">Date Posted</th>
-                <th scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Post One</td>
-                <td>Web Development</td>
-                <td>July 11, 2017</td>
-                <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Post Two</td>
-                <td>Web Development</td>
-                <td>July 12, 2017</td>
-                <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Post Three</td>
-                <td>Tech Gadgets</td>
-                <td>July 12, 2017</td>
-                <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Post Four</td>
-                <td>Health & Wellness</td>
-                <td>July 13, 2017</td>
-                <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Post Five</td>
-                <td>Web Development</td>
-                <td>July 14, 2017</td>
-                <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
-              </tr>
-              <tr>
-                <th scope="row">6</th>
-                <td>Post Six</td>
-                <td>Business</td>
-                <td>July 14, 2017</td>
-                <td><button type="button" class="btn btn-table"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Details</button></td>
-              </tr>
-            </tbody>
-          </table>
         </div>
         <!-- CARTE BLEUE -->
         <div class="col-3">
-          <div class="card text-white text-center bg-primary d-flex flex-column">
+          <div class="dashCard text-white text-center bg-primary d-flex flex-column">
             <h3>Posts</h3>
             <p><i class="fa fa-pencil" aria-hidden="true"></i> 6</p>
             <a class="btn btn-sm btn-outline-light" href="posts.html">View</a>
           </div>
         <!-- CARTE VERTE -->
-          <div class="card text-white text-center bg-success d-flex flex-column">
+          <div class="dashCard text-white text-center bg-success d-flex flex-column">
             <h3>Categories</h3>
             <p><i class="fa fa-folder-open-o" aria-hidden="true"></i> 4</p>
             <a class="btn btn-sm btn-outline-light" href="categories.html">View</a>
           </div>
         <!-- CARTE ORANGE -->
-          <div class="card text-white text-center bg-orange d-flex flex-column">
+          <div class="dashCard text-white text-center bg-orange d-flex flex-column">
             <h3>Users</h3>
             <p><i class="fa fa-users" aria-hidden="true"></i> 2</p>
             <a class="btn btn-sm btn-outline-light" href="users.html">View</a>
